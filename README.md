@@ -24,13 +24,14 @@ code_method folder: contain codes to reproduce simulation results for continuous
 
 
 II. Simulation part (within simulations folder):
-1. sim_data_generation folder: contain codes to generate simulated data
+
+sim_data_generation folder: contain codes to generate simulated data
 
 	sim_dat_ind_toeplitz: code to generate simulated data with Independent and Toeplitz correlation designs
 	sim_dat_block.R: code to generate simulated data with Block correlation design
 	run_sim_data.sh: bash commands for running simulation data generation code on HPC
 
-2. code_sim_cts folder: contain codes to reproduce simulation results for continuous outcomes 
+code_sim_cts folder: contain codes to reproduce simulation results for continuous outcomes 
 
 	cv_sim_apply.R: general functions for applying selected feature selection methods to simulated data when applied to continuous outcomes
 
@@ -48,7 +49,7 @@ II. Simulation part (within simulations folder):
 	run_sim_cts.sh: bash commands for running simulation code for continous outcomes on HPC
 
 
-3. code_sim_bin folder: contain codes to reproduce simulation results for binary outcomes
+code_sim_bin folder: contain codes to reproduce simulation results for binary outcomes
 
 	cv_sim_apply_binary_update.R: general functions for applying selected feature selection methods to simulated data when applied to binary outcomes
 
@@ -63,15 +64,15 @@ II. Simulation part (within simulations folder):
 	## bash commands
 	run_sim_bin.sh: bash commands for running simulation code for binary outcomes on HPC
 
-4. notebooks_sim_cts folder: contain notebooks (R) to summarize simulation results for continuous outcome
+notebooks_sim_cts folder: contain notebooks (R) to summarize simulation results for continuous outcome
 
-5. notebooks_sim_bin folder: contain notebooks (R) to summarize simulation results for binary outcome	
+notebooks_sim_bin folder: contain notebooks (R) to summarize simulation results for binary outcome	
 
-6. results_summary_cts folder: contain outputs of tables from notebooks in notebooks_sim_cts folder
+results_summary_cts folder: contain outputs of tables from notebooks in notebooks_sim_cts folder
 
-7. results_summary_bin folder: contain outputs of tables from notebooks in notebooks_sim_bin folder
+results_summary_bin folder: contain outputs of tables from notebooks in notebooks_sim_bin folder
 
-8. figures_combined folder: contain figures generated for both continous and binary outcomes based on notebook 6_make_figures_combined in notebooks_sim_bin folder
+figures_combined folder: contain figures generated for both continous and binary outcomes based on notebook 6_make_figures_combined in notebooks_sim_bin folder
 
 
 III. application part (within data_application folder):
